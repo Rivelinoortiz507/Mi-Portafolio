@@ -16,8 +16,9 @@ const Projects = () => {
       <div className="project">
         <h3>Fantasy Books: E-Commerce de Libros</h3>
         <p>
-        Fantasy Books es un proyecto de plataforma de comercio electrónico dedicada exclusivamente a la venta de libros del género fantasía, con un enfoque en ediciones difíciles de encontrar y libros de autores emergentes. Aunque el proyecto no es funcional, está diseñado para ofrecer una experiencia de compra personalizada para lectores apasionados por la fantasía, incluyendo coleccionistas y académicos, con acceso a libros de texto y material de investigación.
+        Fantasy Books es una plataforma web diseñada para los amantes de la literatura fantástica. Con un sistema de gestión de libros basado en Express y una base de datos que permite crear, leer, actualizar y eliminar títulos, esta aplicación ofrece una experiencia dinámica y fácil de usar. 
         </p>
+       
         <a href="https://github.com/Rivelinoortiz507/DPFS_Rivelino_Ortiz.git" target="_blank" rel="noopener noreferrer">
           Ver en GitHub
         </a>
@@ -36,7 +37,7 @@ const Projects = () => {
 
       {/* Proyecto 3 */}
       <div className="project">
-        <h3>Portfolio Personal: Aprende Desarrollo Web</h3>
+        <h3>Portafolio Personal: Aprende Desarrollo Web</h3>
         <p>
         Este proyecto es una página personal desarrollada exclusivamente con HTML, CSS, y JavaScript. Está diseñada para destacar habilidades y experiencia como desarrollador web, mientras sirve como un ejemplo práctico de diseño y funcionalidad en el desarrollo frontend.
         </p>

@@ -6,16 +6,19 @@ const Home = () => {
     <div className="page-container">
       <div className="home">
         <div className="info">
-          <h1>¡Hola, soy Rivelino Ortiz!</h1>
+          <p>¡Hola, soy Rivelino Ortiz!</p>
+          <h1>Programador Web Full Stack</h1>
           <p>
-            Soy un desarrollador web con experiencia en tecnologías como React, CSS, HTML, JavaScript y Express.
-            Me especializo en desarrollar paginas web escalables, combinando un sólido conocimiento de bases de datos MySQL
-            con un enfoque en diseño UX/UI para ofrecer experiencias atractivas y funcionales.
-            Siempre en constante aprendizaje, me apasiona resolver problemas complejos y trabajar en equipo.
+            Soy un programador web Full Stack panameño. Me apasiona aprender,
+            resolver problemas y crear páginas web funcionales y atractivas. 🚀
           </p>
+          {/* Enlace para descargar el currículum */}
+          <a href="/curriculum/Rivelino_Ortiz_Curriculum.pdf" download className='download-link'>
+            Descargar mi currículum
+          </a>
         </div>
         <div className="image">
-          <img src="public/images/my-photo.jpg" alt="Imagen Rivelino Ortiz" />
+          <img src="images/my-photo.jpg" alt="Imagen Rivelino Ortiz" />
         </div>
       </div>
     </div>

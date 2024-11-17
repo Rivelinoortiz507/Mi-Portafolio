@@ -3,10 +3,9 @@
 }
 
 .projects {
+  background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 67%);
     padding: 3rem;
-    max-width: 1200px;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
   }
 
   .projects-intro {
@@ -18,14 +17,14 @@
   .projects-intro h1 {
     font-size: 35px;
     margin-bottom: 1rem;
-    color: #333e53; 
+    color: rgb(233, 238, 248);
   }
   
   .projects-intro p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 1.5rem;
-    color: #4a5568;
+    color: rgb(226, 233, 245);
     text-align: center;
   }
   
@@ -38,8 +37,7 @@
   }
   
   .project {
-    background-color: #ffffff;
-    border: 1px solid #e2e8f0;
+    border: 2px solid #93a4b9;
     padding: 2rem;
     border-radius: 8px;
     margin-bottom: 1.5rem;
@@ -54,19 +52,19 @@
   .project h3 {
     font-size: 1.75rem;
     font-weight: 500;
-    color: #2d3748;
+    color: rgb(195, 213, 247);
     margin-bottom: 1rem;
   }
   
   .project p {
     font-size: 1.125rem;
-    color: #4a5568;
+    color: rgb(226, 233, 245);
     margin-bottom: 1rem;
   }
   
   .project a {
     font-size: 1.125rem;
-    color: #3182ce;
+    color: #188efc;
     text-decoration: none;
     transition: color 0.2s ease;
   }

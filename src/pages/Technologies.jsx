@@ -3,15 +3,17 @@ import '../styles/Technologies.css';
 
 const Technologies = () => {
   const techs = [
-    { name: 'HTML', icon: <i class="fa-brands fa-html5"></i> },
-    { name: 'CSS', icon: <i class="fa-brands fa-css3-alt"></i> },
-    { name: 'JavaScript', icon: <i class="fa-brands fa-js"></i>},
-    { name: 'React', icon: <i class="fa-brands fa-react"></i> },
-    { name: 'Node.js', icon: <i class="fa-brands fa-node"></i>},
-    { name: 'Express', icon: <i class="fa-solid fa-rocket"></i> },
-    { name: 'MySQL', icon: <i class="fa-solid fa-database"></i> },
-    { name: 'Git', icon:<i class="fa-brands fa-git-alt"></i> },
-    { name: 'UX/UI Design', icon:<i class="fa-brands fa-figma"></i>},
+    { name: 'HTML', image: '/images/html-1.svg' },
+    { name: 'CSS', image: '/images/css-3.svg' },
+    { name: 'JavaScript', image: '/images/logo-javascript.svg' },
+    { name: 'React', image: '/images/react-2.svg' },
+    { name: 'Node.js', image: '/images/nodejs-1.svg' },
+    { name: 'Express', image: '/images/nodejs-3.svg' },
+    { name: 'MySQL', image: '/images/mysql-3.svg' },
+    { name: 'Git', image: '/images/git-icon.svg' },
+    { name: 'UX/UI Design', image: '/images/figma-5.svg' },
+    { name: 'Bootstrap', image: '/images/bootstrap-5-1.svg' },
+    { name: 'Github', image: '/images/github-icon-1.svg' },
   ];
 
   return (
@@ -22,7 +24,7 @@ const Technologies = () => {
         <ul className="tech-list">
           {techs.map((tech, index) => (
             <li className="tech-item" key={index}>
-              <span className="icon">{tech.icon}</span>
+              <img src={tech.image} alt={tech.name} className="tech-icon" /> {/* Imágenes de tecnologías */}
               <span className="name">{tech.name}</span>
             </li>
           ))}

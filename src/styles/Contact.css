@@ -2,28 +2,34 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body{
+  background: linear-gradient(245.59deg, #31494e 0%, #385e70 28%, #131313 76%);
+}
+
 .contact {
-    max-width: 700px;
-    height: 68vh;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+  max-width: 700px;
+  height: 68vh;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: transparent; /* Hacer el fondo transparente */
+  border-radius: 10px;
+  color: #333; /* Asegura que el texto sea legible */
+}
+
   
   .contact h2 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
-    color: #333e53;
+    color: rgb(233, 238, 248);
   }
   
   .contact p {
     font-size: 1rem;
-    color: #4a5568;
+    color: rgb(226, 233, 245);
     margin-bottom: 15px;
     text-align: center;
+    text-align: justify;
   }
   
   .contact-info {
@@ -34,11 +40,11 @@
   .contact-info p {
     margin: 5px 0;
     font-size: 1rem;
-    color: #333;
+    color: rgb(226, 233, 245);
   }
   
   .contact-info a {
-    color: #007bff;
+    color: #3591f3;
     text-decoration: none;
   }
   

@@ -6,6 +6,7 @@
 
 .page-container {
   display: flex;
+  background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75%);
   flex-direction: column;
   min-height: 100vh; /* Asegura que la altura mínima sea del 100% de la ventana */
 }
@@ -29,14 +30,13 @@
 
 h1 {
   font-size: 42px;
-  color: #333e53;
+  color: rgb(195, 213, 247);
   margin-bottom: 10px;
 }
 
 p {
   font-size: 1.25rem;
-  color: #333;
-  margin-bottom: 20px;
+  color: rgb(226, 233, 245);
   text-align: justify;
 }
 
@@ -76,6 +76,24 @@ p {
 
 .image img:hover {
   transform: scale(1.1);
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 20px;
+  border: 2px solid white;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.5s ease;
+}
+
+/* Efecto hover para el enlace */
+.download-link:hover {
+  transform: translateX(10px);
 }
 
 footer {

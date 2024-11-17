@@ -4,18 +4,16 @@
 
 
 .about {
-    padding: 3rem;
-    background-color: #f7fafc; /* Fondo gris claro */
+    padding: 2rem;
     max-width: 1000px;
     margin: 0 auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   /* Título principal */
   .about h2 {
     font-size: 2.5rem;
     font-weight: 600;
-    color: #333e53; 
+    color: rgb(233, 238, 248);
     margin-bottom: 2rem;
     text-align: center;
   }
@@ -23,7 +21,7 @@
   /* Estilo de los párrafos */
   .about p {
     font-size: 1.125rem; /* Texto más grande y legible */
-    color: #4a5568; /* Gris oscuro */
+    color: rgb(226, 233, 245);
     line-height: 1.75;
     margin-bottom: 1.5rem;
   }

@@ -18,6 +18,7 @@ body {
 }
 
 .technologies {
+  background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75%);
   padding: 50px;
   text-align: center;
   flex: 1; /* Esto hace que la sección de tecnologías ocupe el espacio restante */
@@ -28,14 +29,14 @@ body {
 
 .technologies h2 {
   font-size: 2.5rem;
-  color: #333e53;
+  color: rgb(233, 238, 248);
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .technologies p {
   font-size: 1.2rem;
-  color: #4a5568;
+  color: rgb(226, 233, 245);
   margin-bottom: 30px;
   text-align: center;
 }
@@ -52,9 +53,10 @@ body {
 .tech-item {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  justify-content: space-between;
+  border: 2px solid rgb(170, 188, 211);
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 8px rgb(134, 143, 160);
   padding: 20px 25px;
   text-align: center;
   width: 180px;
@@ -66,15 +68,11 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-.icon {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: #4e73df; /* Un color de acento */
-}
+
 
 .name {
   font-size: 1.2rem;
-  color: #333;
+  color: rgb(233, 238, 248);
   font-weight: 600;
 }
 

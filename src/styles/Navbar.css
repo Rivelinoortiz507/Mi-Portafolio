@@ -2,7 +2,7 @@
 .navbar {
   padding: 20px 0;
   width: 100%;
-  background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75%);
+  background: linear-gradient(245.59deg, #31494e 0%, #385e70 32%, #131313 90%);
   display: grid;
   top: 0;
   left: 0; /* Asegura que se alinee bien */
