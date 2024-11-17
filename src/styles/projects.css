@@ -1,0 +1,77 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.projects {
+    padding: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .projects-intro {
+    margin-bottom: 2rem;
+    text-align: center;
+   
+  }
+  
+  .projects-intro h1 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+    color: #333e53; 
+  }
+  
+  .projects-intro p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #4a5568;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #2d3748;
+    margin-bottom: 1rem;
+  }
+  
+  .project p {
+    font-size: 1.125rem;
+    color: #4a5568;
+    margin-bottom: 1rem;
+  }
+  
+  .project a {
+    font-size: 1.125rem;
+    color: #3182ce;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .project a:hover {
+    color: #2b6cb0;
+  }
+  

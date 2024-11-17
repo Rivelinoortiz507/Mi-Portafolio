@@ -1,0 +1,21 @@
+.footer {
+  background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75%);
+  color: #ecf0f1;
+  padding: 20px 0;
+  text-align: center;
+  position: relative; /* Asegúrate de que no sea fijo */
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+  color: #dfdfdf;
+}
+
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 10px;
+  }
+}

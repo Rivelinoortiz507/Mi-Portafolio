@@ -1,0 +1,50 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.about {
+    padding: 3rem;
+    background-color: #f7fafc; /* Fondo gris claro */
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Título principal */
+  .about h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333e53; 
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Estilo de los párrafos */
+  .about p {
+    font-size: 1.125rem; /* Texto más grande y legible */
+    color: #4a5568; /* Gris oscuro */
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilo para mejorar el espaciado y la legibilidad */
+  .about p:last-child {
+    margin-bottom: 0; /* El último párrafo no tiene margen inferior */
+  }
+  
+  /* Estilo responsivo para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .about {
+      padding: 2rem;
+    }
+  
+    .about h2 {
+      font-size: 2rem;
+    }
+  
+    .about p {
+      font-size: 1rem;
+    }
+  }
+  
