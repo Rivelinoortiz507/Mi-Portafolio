@@ -32,17 +32,18 @@
   }
   
   /* Estilo responsivo para pantallas pequeñas */
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     .about {
       padding: 2rem;
     }
   
     .about h2 {
-      font-size: 2rem;
+      font-size: 24px;
+      margin-bottom: 10px;
     }
   
     .about p {
-      font-size: 1rem;
+      font-size: 14px;
     }
   }
   

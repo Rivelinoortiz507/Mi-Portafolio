@@ -132,14 +132,17 @@ footer p {
   }
 
   .info h1 {
-    font-size: 1.8rem;
+    font-size: 22px;
   }
 
   .info p {
     font-size: 0.9rem;
+    text-align: center;
   }
 
   .image img {
     max-width: 200px;
+    position: relative;
+    bottom: 160px;
   }
 }

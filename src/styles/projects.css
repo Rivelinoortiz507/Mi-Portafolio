@@ -73,3 +73,33 @@
     color: #2b6cb0;
   }
   
+  @media (max-width: 480px){
+    .projects{
+      padding: 15px;
+    }
+
+    .projects-intro h1{
+      font-size: 22px;
+      
+    }
+
+    .projects-intro p{
+      font-size: 13px;
+    }
+
+    .project{
+      padding: 12px;
+    }
+
+    .project h3{
+      font-size: 16px;
+    }
+
+    .project p{
+      font-size: 14px;
+    }
+
+    .project a{
+      font-size: 14px;
+    }
+  }
