@@ -5,8 +5,14 @@ import '../styles/Navbar.css';  // Importa los estilos CSS
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Función para alternar el estado del menú
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  // Función para cerrar el menú al hacer clic en un enlace
+  const closeMenu = () => {
+    setIsOpen(false);
   };
 
   return (
@@ -25,10 +31,10 @@ const Navbar = () => {
 
         {/* Menú de navegación */}
         <div className={`navbar-links ${isOpen ? 'open' : ''}`}>
-          <Link to="/about">Sobre mí</Link>
-          <Link to="/projects">Proyectos</Link>
-          <Link to="/technologies">Habilidades</Link>
-          <Link to="/contact">Contáctame</Link>
+          <Link to="/about" onClick={closeMenu}>Sobre mí</Link>
+          <Link to="/projects" onClick={closeMenu}>Proyectos</Link>
+          <Link to="/technologies" onClick={closeMenu}>Habilidades</Link>
+          <Link to="/contact" onClick={closeMenu}>Contáctame</Link>
         </div>
       </div>
     </nav>

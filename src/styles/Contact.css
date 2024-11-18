@@ -118,8 +118,9 @@ body{
 
   @media (max-width: 480px){
     .contact{
-      padding: 15px;
-      margin: 46px;
+      padding: 10px;
+      margin: 10px;
+      margin-bottom: 100px;
     }
     .contact h2{
       font-size: 22px;
@@ -129,5 +130,9 @@ body{
     }
     .contact-info p{
       font-size: 12px;
+    }
+
+    .gmail{
+      margin-right: 5px;
     }
   }

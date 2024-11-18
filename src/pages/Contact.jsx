@@ -13,7 +13,7 @@ const Contact = () => {
       </p>
       <div className="contact-info">
         <p>
-          <strong>Correo Electrónico:</strong>
+          <strong className='gmail'>Correo:</strong>
           <a href="mailto:rivelinoortiz123@gmail.com">
             rivelinoortiz123@gmail.com <i class="fa-solid fa-envelope icono-gmail"></i>
           </a>
